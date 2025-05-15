@@ -1,6 +1,6 @@
 {
   "name": "topsecret-env",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Securely manage application environment variables",
   "main": "index.js",
   "scripts": {
