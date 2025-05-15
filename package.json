@@ -1,0 +1,35 @@
+{
+  "name": "topsecret-env",
+  "version": "0.1.0",
+  "description": "Securely manage application environment variables",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "topsecret": "^0.7.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miketerry-org/topsecret-env.git"
+  },
+  "keywords": [
+    "topsecret",
+    "environment",
+    "variables",
+    "encrypt",
+    "decrypt",
+    "validate"
+  ],
+  "author": "Mike Terry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miketerry-org/topsecret-env/issues"
+  },
+  "homepage": "https://github.com/miketerry-org/topsecret-env#readme"
+}
