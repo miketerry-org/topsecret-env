@@ -1,10 +1,13 @@
 {
   "name": "topsecret-env",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Securely manage application environment variables",
   "main": "index.js",
   "scripts": {
     "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "topsecret": "^0.10.1"
   },
   "repository": {
     "type": "git",
