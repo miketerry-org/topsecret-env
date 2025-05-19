@@ -64,8 +64,7 @@ class SecretEnv {
    * @returns {string} - A newly generated encryption key.
    */
   static generateKey() {
-    const ts = new TopSecret();
-    return ts.generateKey();
+    return new TopSecret().generateKey;
   }
 
   /**
