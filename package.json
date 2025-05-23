@@ -1,13 +1,10 @@
 {
   "name": "topsecret-env",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Securely manage application environment variables",
   "main": "index.js",
   "scripts": {
     "dev": "node --watch index.js"
-  },
-  "dependencies": {
-    "topsecret": "^0.10.1"
   },
   "repository": {
     "type": "git",
@@ -26,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/miketerry-org/topsecret-env/issues"
   },
-  "homepage": "https://github.com/miketerry-org/topsecret-env#readme"
+  "homepage": "https://github.com/miketerry-org/topsecret-env#readme",
+  "dependencies": {
+    "topsecret": "^0.10.3"
+  }
 }
